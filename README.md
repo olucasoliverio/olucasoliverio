@@ -12,6 +12,15 @@ Sistema para oficinas mecânicas que estou construindo com o [Lucas Gaspar](http
 **[Doca](https://github.com/olucasoliverio/Doca)**
 Dock e barra de menu no estilo do macOS para o Windows 11, com Spotlight, Central de Controle e controle de música. C# e WPF.
 
+### Na Next Fit
+
+Ferramentas internas que fiz para o time de atendimento. O código é fechado.
+
+- **Roteia**: distribui as conversas do Freshchat entre os agentes conforme disponibilidade, capacidade e horário, com painel de administração e calendário de ausências. Node.js, BullMQ, Postgres, Redis e React.
+- **Central de Ajuda com IA**: responde perguntas com base nos artigos da central de ajuda, usando busca vetorial (RAG). NestJS, Prisma, pgvector e Gemini.
+- **Análise de Atendimentos**: analisa as conversas do Freshchat com Gemini e mostra os resultados num painel. Express, Prisma e React.
+- **NextPrint**: fork do Flameshot que envia as capturas de tela direto para o Google Drive de quem está logado. C++, Qt e OAuth.
+
 ### Faculdade
 
 - [Pipeline de Engenharia de Dados](https://github.com/olucasoliverio/Engenharia_Dados_Final): pipeline de um e-commerce em arquitetura medalhão, do MongoDB até um dashboard no Looker Studio. Airflow, Spark, Delta Lake e MinIO.
