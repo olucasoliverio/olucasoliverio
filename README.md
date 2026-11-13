@@ -12,7 +12,7 @@ Desenvolvedor na Next Fit e estudante de Engenharia de Software na SATC, em Cric
 
 <a href="https://auttra.com.br"><img src="assets/auttra.jpg" alt="Página inicial da Auttra" width="100%"></a>
 
-**[Auttra](https://auttra.com.br)** · sistema para oficinas mecânicas, no ar
+**[Auttra](https://auttra.com.br)** · Sistema para Gestão de Oficinas Mecânicas
 
 Estou construindo com o [Lucas Gaspar](https://github.com/LucasGasparA). Junta ordem de serviço, orçamento, agenda, estoque e financeiro, e a tela inicial já aponta o que precisa de atenção: O.S. parada, conta vencida, orçamento sem resposta, peça acabando.
 
@@ -26,7 +26,7 @@ Estou construindo com o [Lucas Gaspar](https://github.com/LucasGasparA). Junta o
 
 <a href="https://github.com/olucasoliverio/Doca"><img src="assets/doca.jpg" alt="Doca rodando no Windows 11" width="100%"></a>
 
-**[Doca](https://github.com/olucasoliverio/Doca)** · dock e barra de menu do macOS no Windows 11
+**[Doca](https://github.com/olucasoliverio/Doca)** · Dock e Barra de menu do macOS no Windows 11
 
 Substitui a barra de tarefas por uma Dock com ampliação, barra de menu no topo, Spotlight no Alt+Espaço, Central de Controle com Wi-Fi, Bluetooth e som, e controle de música.
 
