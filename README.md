@@ -37,7 +37,17 @@ Ferramentas internas que fiz para o time de atendimento. O código é fechado.
 
 **🔀 Roteia**
 
-Distribui as conversas do Freshchat entre os agentes conforme disponibilidade, capacidade e horário, com painel de administração e calendário de ausências.
+Distribui as conversas do Freshchat entre os agentes do suporte, respeitando horário, pausas e carga de cada um.
+
+<details>
+<summary>O que ele faz</summary>
+
+- **Distribuição**: recebe cada conversa nova por webhook, coloca numa fila e atribui por rodízio, uma de cada vez, para dois agentes nunca pegarem a mesma vez.
+- **Regras por agente**: limite diário, indisponibilidade no dia ou permanente, e carga reduzida, em que o agente pula algumas vezes depois de receber.
+- **Turnos**: conversas que chegam fora do horário ficam pendentes e são distribuídas quando o turno começa. Tem grupos de pausa e sincronização diária dos agentes.
+- **Painéis**: dashboard em tempo real com atribuições, resoluções, falhas e gráfico de distribuição, calendário de horários e histórico de alterações. Os agentes têm um painel próprio para cadastrar as ausências.
+
+</details>
 
 <sub>Node.js · BullMQ · Postgres · Redis · React</sub>
 
@@ -67,7 +77,17 @@ Escreve e mantém os artigos da central de ajuda a partir de uma base vetorial s
 
 **📊 Análise de Atendimentos**
 
-Analisa as conversas do Freshchat com Gemini e mostra os resultados num painel.
+Lê as conversas de um cliente no Freshchat e gera um relatório do atendimento com Gemini.
+
+<details>
+<summary>O que ela faz</summary>
+
+- **Entrada**: busca as conversas pelo e-mail do cliente e analisa uma conversa só ou várias juntas, em lote e em segundo plano.
+- **Leitura completa**: além do texto, o modelo vê as imagens, áudios e vídeos enviados. Conversas longas são compactadas antes.
+- **Relatório**: resumo executivo, problema principal, linha do tempo, passagens entre agentes, como o atendimento foi conduzido, evidências e ações recomendadas.
+- **Risco**: classifica a chance de o cliente voltar a chamar, ficar insatisfeito ou cancelar.
+
+</details>
 
 <sub>Express · Prisma · React · Gemini</sub>
 
@@ -76,9 +96,19 @@ Analisa as conversas do Freshchat com Gemini e mostra os resultados num painel.
 
 **📸 NextPrint**
 
-Fork do Flameshot que envia as capturas de tela direto para o Google Drive de quem está logado.
+Fork do Flameshot que envia as capturas de tela direto para o Google Drive de quem está logado, sem servidor próprio.
 
-<sub>C++ · Qt · OAuth</sub>
+<details>
+<summary>O que ele faz</summary>
+
+- **Login**: OAuth do Google com PKCE, restrito às contas da empresa. Só o refresh token fica guardado, no Keychain do macOS ou no Gerenciador de Credenciais do Windows.
+- **Envio**: a captura vai para uma pasta própria no Drive, com um escopo que só enxerga os arquivos criados pelo app. O link é copiado na hora.
+- **Compartilhamento**: tenta "qualquer pessoa com o link" e, se a política da empresa bloquear, cai para "qualquer pessoa da empresa".
+- **Distribuição**: o instalador do Windows (.msi) é gerado pelo GitHub Actions, e o do macOS sai assinado em .dmg.
+
+</details>
+
+<sub>C++ · Qt 6 · OAuth · GitHub Actions</sub>
 
 </td>
 </tr>
