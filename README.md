@@ -31,4 +31,4 @@ Ferramentas internas que fiz para o time de atendimento. O código é fechado.
 
 ### Tecnologias
 
-[![Tecnologias](https://skillicons.dev/icons?i=ts,react,nodejs,cs,dotnet,cpp,kotlin,java,python,postgres,redis,docker)](https://skillicons.dev)
+[![Tecnologias](https://skillicons.dev/icons?i=ts,react,nodejs,cs,dotnet,cpp,java,python,postgres,redis,docker)](https://skillicons.dev)
