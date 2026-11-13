@@ -42,7 +42,7 @@ Distribui as conversas do Freshchat entre os agentes do suporte, respeitando hor
 <details>
 <summary>O que ele faz</summary>
 
-- **Distribuição**: recebe cada conversa nova por webhook, coloca numa fila e atribui por rodízio, uma de cada vez, para dois agentes nunca pegarem a mesma vez.
+- **Distribuição**: recebe cada conversa nova por webhook, coloca numa fila e atribui por rodízio, uma de cada vez, para duas conversas que chegam juntas não caírem no mesmo agente.
 - **Regras por agente**: limite diário, indisponibilidade no dia ou permanente, e carga reduzida, em que o agente pula algumas vezes depois de receber.
 - **Turnos**: conversas que chegam fora do horário ficam pendentes e são distribuídas quando o turno começa. Tem grupos de pausa e sincronização diária dos agentes.
 - **Painéis**: dashboard em tempo real com atribuições, resoluções, falhas e gráfico de distribuição, calendário de horários e histórico de alterações. Os agentes têm um painel próprio para cadastrar as ausências.
