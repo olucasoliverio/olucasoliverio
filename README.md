@@ -6,6 +6,10 @@ Desenvolvedor na Next Fit e estudante de Engenharia de Software na SATC, em Cric
 
 ### Projetos
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 <a href="https://auttra.com.br"><img src="assets/auttra.jpg" alt="Página inicial da Auttra" width="100%"></a>
 
 **[Auttra](https://auttra.com.br)** · sistema para oficinas mecânicas, no ar
@@ -17,7 +21,10 @@ Estou construindo com o [Lucas Gaspar](https://github.com/LucasGasparA). Junta o
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
----
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/olucasoliverio/Doca"><img src="assets/doca.jpg" alt="Doca rodando no Windows 11" width="100%"></a>
 
 **[Doca](https://github.com/olucasoliverio/Doca)** · dock e barra de menu do macOS no Windows 11
 
@@ -26,6 +33,10 @@ Substitui a barra de tarefas por uma Dock com ampliação, barra de menu no topo
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![.NET 10](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ### Na Next Fit
 
