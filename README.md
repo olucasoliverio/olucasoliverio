@@ -87,6 +87,7 @@ Fork do Flameshot que envia as capturas de tela direto para o Google Drive de qu
 ### Faculdade
 
 **[Pipeline de Engenharia de Dados](https://github.com/olucasoliverio/Engenharia_Dados_Final)**: pipeline de um e-commerce em arquitetura medalhão, do MongoDB até um dashboard no Looker Studio.
+
 <sub>Airflow · Spark · Delta Lake · MinIO</sub>
 
 ### Tecnologias
