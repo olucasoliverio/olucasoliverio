@@ -17,7 +17,11 @@ Dock e barra de menu no estilo do macOS para o Windows 11, com Spotlight, Centra
 Ferramentas internas que fiz para o time de atendimento. O código é fechado.
 
 - **Roteia**: distribui as conversas do Freshchat entre os agentes conforme disponibilidade, capacidade e horário, com painel de administração e calendário de ausências. Node.js, BullMQ, Postgres, Redis e React.
-- **Central de Ajuda com IA**: responde perguntas com base nos artigos da central de ajuda, usando busca vetorial (RAG). NestJS, Prisma, pgvector e Gemini.
+- **Central de Ajuda com IA**: ferramenta para escrever e manter os artigos da central de ajuda. Sincroniza os artigos do Freshdesk numa base vetorial e busca combinando semântica, palavra-chave, data de atualização e artigos de referência.
+  - **Gerador**: transforma documentos do produto em artigo, passando por plano, ajuste e texto final no padrão de escrita da empresa.
+  - **Análise de impacto**: recebe o comunicado de uma mudança no produto e aponta quais artigos precisam ser atualizados, com uma segunda etapa que confere cada um.
+  - **Revisão**: dá nota de qualidade e reescreve artigos existentes.
+  - NestJS, BullMQ, Prisma, pgvector, React e Gemini.
 - **Análise de Atendimentos**: analisa as conversas do Freshchat com Gemini e mostra os resultados num painel. Express, Prisma e React.
 - **NextPrint**: fork do Flameshot que envia as capturas de tela direto para o Google Drive de quem está logado. C++, Qt e OAuth.
 
