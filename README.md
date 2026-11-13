@@ -1,6 +1,6 @@
 ## Lucas Oliverio
 
-Desenvolvedor na Next Fit e estudante de Engenharia de Software na SATC, em Criciúma/SC. Aqui ficam meus projetos da faculdade e os que faço por conta própria.
+Desenvolvedor na Next Fit e estudante de Engenharia de Software na SATC, em Criciúma/SC.
 
 📫 olucasoliverio@gmail.com
 
@@ -12,14 +12,10 @@ Sistema para oficinas mecânicas que estou construindo com o [Lucas Gaspar](http
 **[Doca](https://github.com/olucasoliverio/Doca)**
 Dock e barra de menu no estilo do macOS para o Windows 11, com Spotlight, Central de Controle e controle de música. C# e WPF.
 
-**[Pipeline de Engenharia de Dados](https://github.com/olucasoliverio/Engenharia_Dados_Final)**
-Pipeline de um e-commerce em arquitetura medalhão, do MongoDB até um dashboard no Looker Studio. Airflow, Spark, Delta Lake e MinIO.
+### Faculdade
 
-**Testes automatizados**
-[Unitários com Jest](https://github.com/olucasoliverio/prova01-unit-test-LucasOliverio), [integração com Jest e PactumJS](https://github.com/olucasoliverio/prova02-integration-test-LucasOliverio) e [E2E com Playwright](https://github.com/olucasoliverio/prova03-e2e-playwright-LucasOliverio).
-
-**[GameStore](https://github.com/olucasoliverio/MicroservicosGameStore)**
-Microsserviço de usuários em C#, feito para a disciplina de Arquitetura de Software.
+- [Pipeline de Engenharia de Dados](https://github.com/olucasoliverio/Engenharia_Dados_Final): pipeline de um e-commerce em arquitetura medalhão, do MongoDB até um dashboard no Looker Studio. Airflow, Spark, Delta Lake e MinIO.
+- Testes automatizados: [unitários com Jest](https://github.com/olucasoliverio/prova01-unit-test-LucasOliverio), [integração com Jest e PactumJS](https://github.com/olucasoliverio/prova02-integration-test-LucasOliverio) e [E2E com Playwright](https://github.com/olucasoliverio/prova03-e2e-playwright-LucasOliverio).
 
 ### Tecnologias
 
